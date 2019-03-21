@@ -52,7 +52,7 @@ module.exports = {
 			'ignoreReadBeforeAssign': false
 		}],
 
-		// No single if in an "else" block
+		// No single if in an 'else' block
 		'no-lonely-if': 2,
 
 		// Force curly braces for control flow,
@@ -90,5 +90,31 @@ module.exports = {
 			'alignAttributesVertically': true,
 			'ignores': []
 		}],
+
+		'vue/html-self-closing': ['error', {
+			'html': {
+				'void': 'never',
+				'normal': 'never',
+				'component': 'never'
+			},
+			'svg': 'any',
+			'math': 'always'
+		}],
+
+		'vue/attributes-order': ['error', {
+			'order': [
+				'DEFINITION',
+				'LIST_RENDERING',
+				'CONDITIONALS',
+				'RENDER_MODIFIERS',
+				'GLOBAL',
+				'UNIQUE',
+				'TWO_WAY_BINDING',
+				'OTHER_DIRECTIVES',
+				'OTHER_ATTR',
+				'EVENTS',
+				'CONTENT'
+			]
+		}]
 	}
 }
