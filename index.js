@@ -90,16 +90,5 @@ module.exports = {
 			'alignAttributesVertically': true,
 			'ignores': []
 		}],
-
-		// Enforce semantic html
-		'vue/html-self-closing': ['error', {
-			'html': {
-				'void': 'never',
-				'normal': 'never',
-				'component': 'never'
-			},
-			'svg': 'never',
-			'math': 'never'
-		}]
 	}
 }
