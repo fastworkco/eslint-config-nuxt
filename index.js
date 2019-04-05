@@ -45,6 +45,7 @@ module.exports = {
 		// Allow debugger during development
 		'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
 		'no-console': process.env.NODE_ENV === 'production' ? 2 : 0,
+		'no-unused-vars': 1,
 
 		// Prefer const over let
 		'prefer-const': [2, {
@@ -115,6 +116,8 @@ module.exports = {
 				'EVENTS',
 				'CONTENT'
 			]
-		}]
+		}],
+
+		'vue/singleline-html-element-content-newline': 0,
 	}
 }

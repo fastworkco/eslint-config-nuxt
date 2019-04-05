@@ -1,6 +1,6 @@
 {
   "name": "@fastwork/eslint-config-nuxt",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Linter rule for Fastwork vue/nuxt project",
   "main": "index.js",
   "scripts": {
